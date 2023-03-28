@@ -64,3 +64,8 @@ body {
 .display h4, h3 {
   margin: 5px;
 }
+
+.display img {
+  width: 200px;
+}
+
