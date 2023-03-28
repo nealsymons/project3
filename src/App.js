@@ -44,7 +44,7 @@ function App() {
         {!pokemonChosen ? (<h1>Please choose a Pokemon</h1>) :
           (<>
             <h1>{pokemon.name}</h1>
-            <img src={pokemon.img} />
+            <img src={pokemon.img} alt= {`The default sprite image for ${pokemon.name}`} />
             <h3>Species: {pokemon.species}</h3>
             <h3>Type: {pokemon.type}</h3>
             <h4>Hp: {pokemon.hp}</h4>
@@ -63,11 +63,11 @@ export default App;
   // pokemon
   // userSelection
 
-// Once the caomponent has been mounted, call the local method to get the data from the Pokemon API
+// Once the component has been mounted, call the local method to get the data from the Pokemon API
 
 // A local method getPokemon to make the API call for the selected Pokemon from the list
   // when successful, update the state with the API data
-  // else display an error messge
+  // else display an error message
 
 // Render the app
   // header
